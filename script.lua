@@ -204,9 +204,10 @@ end
 
 spawn(function()
     if role == "follower" then
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/thekura312/effective-doodle/main/control.lua"))
+	loadstring(game:HttpGet(""))
     end
 end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/thekura312/effective-doodle/main/control.lua"))
 
 
 -- follower end
